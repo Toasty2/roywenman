@@ -1,0 +1,244 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+span.skype_pnh_container {
+    display: none !important;
+}
+
+span.skype_pnh_print_container {
+    display: inline !important;
+}
+
+.navbarCustom {
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+
+.navbarPointer:hover {
+    cursor: pointer;
+}
+
+.royWenman {
+    color: black;
+    background: white;
+    height: 100%;
+}
+
+.royWenman:hover {
+    color: white;
+    background: black;
+}
+
+.whoIAm {
+    color: rgb(255,153,51) !important;
+    background: white !important;
+}
+
+.whoIAm:hover {
+    color: white !important;
+    background: rgb(255,153,51) !important;
+}
+
+.whatIKnow {
+    color: rgb(0,204,204) !important;
+    background: white !important;
+}
+
+.whatIKnow:hover {
+    color: white !important;
+    background: rgb(0,204,204) !important;
+}
+
+.whatIveDone {
+    color: rgb(102,255,102) !important;
+    background: white;
+}
+
+.whatIveDone:hover {
+    color: white !important;
+    background: rgb(102,255,102) !important;
+}
+
+.activeScroll {
+    color: white;
+}
+
+/* Slides */
+#background {
+    width:100%;
+    height:8000px;
+}
+
+#slide1 {
+    
+}
+
+#slide4 {
+    /*background-image: url('../img/codebg.png');
+    background-repeat: no-repeat;*/
+}
+
+.myName {
+    color: white;
+    font-size: 500%;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    position: absolute;
+    left: 50%;
+    top: 500px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    z-index:2;
+}
+
+.person {
+    position: absolute;
+    background-image: url('../img/businessman1.png');
+    background-repeat: no-repeat;
+    left: 10%;
+    top: 100px;
+    height: 1000px;
+    width: 500px;
+    display: inline-block;
+    z-index: 2;
+}
+
+.subtitle {
+    color: rgb(255,153,51);
+    font-size: 400%;
+    position: absolute;
+    left: 20%;
+    top: 300px;
+}
+
+.webDeveloper {
+    position: absolute;
+    background-image: url('../img/businessman2.png');
+    background-repeat: no-repeat;
+    left: 70%;
+    top: 200px;
+    height: 659px;
+    width: 328px;
+}
+
+.facts {
+    position: absolute;
+    left: 20%;
+    top: 400px;
+}
+
+.psychology {
+    background-image: url('../img/psychology.png');
+    background-repeat: no-repeat;
+    height: 142px;
+    width: 125px;
+}
+
+.box {
+    position:absolute;
+    left:0;
+    height:1050px;
+    background:#09f;
+}
+
+.whatIKnowText {
+    position: absolute;
+    top: 5px;
+    left: 5%;
+    color: white;
+    font-size: 300%;
+}
+
+.whatIKnowContainer {
+    height: 500px;
+    background: white;
+    width: 90%;
+    left: 5%;
+}
+
+.whatIKnowBlock {
+    width: 50%;
+    /*padding-left: 20px;*/
+    display: inline-block;
+    /*margin-top: 20px;*/
+    border-right: 1px solid #8DC5EB;
+    height: 100%;
+}
+
+.whatIKnowLeft {
+    float: left;
+}
+
+.whatIKnowRight {
+    float: right;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.whatIKnowTitle {
+    font-size: 300%;
+    color: #09f;
+    padding: 10px 15px 10px 15px;
+    background-color: white;
+    /*border-bottom: 1px solid #09f;*/
+}
+
+.whatIKnowTitle:hover {
+    color: white;
+    cursor: pointer;
+    background-color: #09f;
+}
+
+.description {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.softwareList {
+    padding-top: 20px;
+    border-bottom: 1px solid #8DC5EB;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.software li {
+    display: inline-block;
+    float: left;
+    padding: 20px;
+}
+
+.contactHeader {
+    font-size: 700%;
+    color: black;
+    text-shadow: rgb(0,0,0);
+    opacity: 0.5;
+}
+
+.contactBG {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactMeList {
+    width: 100%;
+    text-align: center;
+}
+
+.contactMeList li {
+    display: inline-block;
+    padding: 20px 50px 0px 0px;
+    text-align: center;
+}
+
+/* LIST #2 */
+#list2 { width:320px; }
+#list2 ol { font-style:italic; font-family:Georgia, Times, serif; font-size:24px; color:rgb(255,153,51);  }
+#list2 ol li { }
+#list2 ol li p { padding:8px; font-style:normal; font-family:Arial; font-size:13px; color:black; border-left: 1px solid #999; }
+#list2 ol li p em { display:block; }
